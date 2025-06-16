@@ -182,7 +182,7 @@ while True:
         promptText = "Enter YOUR NAME and press ENTER"
         displayText = finalText
     else:
-        promptText = "Press 'S' to star the game, 'R' to restart and 'Q' to quit the game"
+        promptText = "Press 'S' to start the game, 'R' to restart and 'Q' to quit the game"
         displayText = f"{playerName} VS {aiName} | Score to win: {scoreLimit}"
     if invalidInput and time.time() - invalidTimer < 2:
         if nameStage == 2 and finalText == "":
